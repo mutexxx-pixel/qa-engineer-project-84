@@ -1,1 +1,13 @@
-
+---
+name: Marina
+job: QA Engineer
+level: junior
+email: mariskapanova@mail.ru
+description: |
+  Большая сила - большая ответственность
+skills:
+  - Функциональное тестирование
+  - Написание багрепортов
+  - Написание тест-кейсов
+  - Слепая печать
+  - Английский язык B1
