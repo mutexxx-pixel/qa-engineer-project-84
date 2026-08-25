@@ -12,7 +12,23 @@
     Сбоку, сверху и внизу нет пустых блоков
   actual-result: |
     Ошибка изображена на скриншоте photo_2026-08-25_16-36-32.jpg
-
+    
+- summary: |
+    Не работает "крестик" у окна после оформления заказа
+  environment: |
+    Yandex Browzer 26.8.0.1788 (64-bit)
+    ОС Windows 10 Pro
+  steps-to-reproduce: |
+    1. Перейти на главную страницу сайта https://products-store.hexlet.app/
+    2. Добавить любой товар в корзину
+    3. Нажать "Cart"
+    4. Нажать "Checkout"
+    5. Нажать "крестик"
+  expected-result: |
+    Окно закроется
+  actual-result: |
+    "Крестик" неактивная кнопка
+    
 - summary: |
     На главной (первой) странице сайта видна кнопка "Previous"
   environment: |
